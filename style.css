@@ -1,0 +1,195 @@
+:root{
+        --main-shadow:
+       
+    0 0 5px #fff,
+
+    
+   
+    0 0 150px rgb(247, 0, 255);
+
+    --main-background: linear-gradient(to left, rgba(102,33,73) 0%, rgba(4,4,4) 100%);
+    --main-text-color: #fff;
+
+--main-font:  font-family: sans-serif;
+--main-box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
+--other-background:rgba(0, 0, 0, 0.5);
+--main-border-radius: 5px;
+
+    
+}
+body{
+        background-image:var(--main-background)
+  ;  
+}
+
+#navigation{
+        display: none;
+}
+
+
+.navbar{
+        background-image:var(--main-background)
+  ; 
+}
+
+.navbar-brand{
+        color: #fff;
+  text-shadow:var(--main-shadow)
+    ;
+}
+
+
+
+
+#hero{
+        position: relative;
+        width: 100%;
+        height: 100%;}
+
+#hero video{
+        height: 100vh;
+        width: 100%;
+        background-position: absolute;
+        z-index: 10;
+        object-fit: cover;
+}
+
+#hero .content{
+        background: var(--other-background);
+        height: 100%;
+        width: 100%;
+        z-index: 20;
+        position: absolute;
+        top: 0;
+        left: 0;
+}
+
+#hero h1,h3{
+        color:var(--main-text-color);
+  text-shadow:var(--main-shadow)
+  ;
+
+    
+  
+font-family:var(--main-font);}
+.d-flex{
+        padding-top: 10px;
+}
+
+
+
+#subscribe{
+  text-align: center;
+  border-radius: 5px;
+  margin: 3em auto;
+  height: 250px;
+  width: 300px;
+  padding: 1em;
+  
+  position: relative;
+  
+  
+}
+
+
+
+#subscribe input {
+/*  background: rgba(255, 13, 254, 0.90); */
+  width: 210px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+background: var(--other-background);  padding: 1em 2em;
+  outline: none;
+  border: none;
+  color: #222;
+  transition: 0.3s linear;
+}
+::placeholder{color: #999;}
+#subscribe input:focus {background: #eee;}
+
+#subscribe button {
+background-image:var(--main-background)
+  ;  box-shadow: var(--main-box-shadow);
+color: var(--main-text-color);
+font-family: var(--main-font);  padding: 0.5em 1.9em;
+  margin: 2.3em 0 0 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  outline: none;
+  border: none;
+  transition: 0.3s linear;
+  text-shadow:var(--main-shadow)
+  ;
+
+}
+#subscribe button:hover{transform: translatey(2px);}
+#subscribe button:active{transform: translatey(5px);}
+
+
+#devices h1{
+        text-shadow:var(--main-shadow)
+  ;
+font-family: var(--main-font);}
+
+#sponsors{
+background-image:var(--main-background)
+  ;         padding-top: 10px;
+   
+}
+
+#sponsors img{
+        width: 135px;
+        padding: 20px;
+        margin-top: 10px;
+}
+
+#sponsors h1{
+        color:var(--main-text-color);
+       text-shadow:var(--main-shadow)
+  ;
+font-family: var(--main-font);        font-size: 50px;
+}
+
+.d-flex img{
+        padding: 10px;
+}
+
+
+
+#slideshow {
+  margin: 80px auto;
+  position: relative;
+  width: 400px;
+  height: 240px;
+  padding: 10px;
+  box-shadow: var(--main-box-shadow);
+  
+ 
+}
+
+#slideshow > div {
+  position: absolute;
+ 
+  margin: 10px 10px 10px 10px;
+}
+
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;   
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    
+}
+
+.icons .fa{
+color:var(--main-text-color);    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
